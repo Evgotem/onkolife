@@ -1,93 +1,101 @@
 body {
-  background-color: #f8f8f8;
-  font-family: 'Roboto', sans-serif;
-  color: #262626;
+background-color: #f8f8f8;
+font-family: 'Roboto', sans-serif;
+color: #262626;
 }
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .container {
-  width: 760px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 30px;
-  
+width: 760px;
+margin: 0 auto;
+background-color: #fff;
+padding: 30px;
+
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 25px;
-  margin: 25px 0 10px;
+font-weight: bold;
+font-size: 25px;
+margin: 25px 0 10px;
 }
 p {
-  font-size: 16px;
-  margin: 0 0 10px;
+font-size: 16px;
+margin: 0 0 10px;
 }
 
 ul {
-  list-style: none;
+list-style: none;
 }
 
 
 
 .tumor__list,.stage__list {
-  line-height: 26px;
-  padding: 0;
-  margin-bottom: 25px;
+line-height: 26px;
+padding: 0;
+margin-bottom: 25px;
 }
 
 .tumor__item,.stage__item {
-  border-top: 1px solid #E9E9E9;
-  padding: 20px 10px;
-  border-bottom: 0px solid #F8F8F8;
-  transition: border-bottom 0.3s;
+border-top: 1px solid #E9E9E9;
+padding: 20px 10px;
+border-bottom: 0px solid #F8F8F8;
+-webkit-transition: border-bottom 0.3s;
+transition: border-bottom 0.3s;
 }
 .tumor__item {
-  display: flex;
-  align-items: center;
-  list-style: none;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+      -ms-flex-align: center;
+         align-items: center;
+list-style: none;
 }
 .tumor__item:last-child,.stage__item:last-child {
-  border-bottom: 1px solid #E9E9E9;
+border-bottom: 1px solid #E9E9E9;
 }
 .tumor__num {
-  font-family: 'Bebas Neue';
-  font-size: 42px;
-  font-weight: 700;
-  line-height: 54px;
-  letter-spacing: 0;
-  margin-top: 0;
-  text-transform: uppercase;
-  color: #1D79BE;
-  margin-right: 3%;
-  padding-right: 0;
-  min-width: 7%;
-  
+font-family: 'Bebas Neue';
+font-size: 42px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0;
+margin-top: 0;
+text-transform: uppercase;
+color: #1D79BE;
+margin-right: 3%;
+padding-right: 0;
+min-width: 7%;
+
 }
 .tumor__item:hover, .stage__item:hover {
-  background-color: #F8F8F8;
-  border:none;
-  border-bottom: 1px solid #1D79BE;
-  transition: 0.3s;
+background-color: #F8F8F8;
+border:none;
+border-bottom: 1px solid #1D79BE;
+-webkit-transition: 0.3s;
+transition: 0.3s;
 }
 
 .exception {
-  position: relative;
-  padding-left: 20px;
-  font-style: italic;
+position: relative;
+padding-left: 20px;
+font-style: italic;
 }
 .exception::before {
-  position: absolute;
-  left: 5px;
-  content: "";
-  display: block;
-  width: 3px;
-  height: 100%;
-  background-color: #1D79BE;
+position: absolute;
+left: 5px;
+content: "";
+display: block;
+width: 3px;
+height: 100%;
+background-color: #1D79BE;
 }
 .exception:hover {
-  background-color: #F8F8F8;
+background-color: #F8F8F8;
 
-  transition: 0.3s;
+-webkit-transition: 0.3s;
+
+transition: 0.3s;
 }
