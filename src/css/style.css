@@ -1,0 +1,95 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 2 version
+*/
+
+.container {
+  max-width: 990px;
+  padding: 30px;
+  margin: 35px auto 100px;
+}
+
+body {
+  margin: 0;
+  padding: 30px 30px;
+  background-color: #F8F8F8;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 25px 20px;
+}
+
+.link {
+  text-decoration: none;
+  display: inline-block;
+  color: #262626;
+  position: relative;
+  cursor: pointer;
+  outline: 0 !important;
+  outline-offset: 0;
+  outline-color: transparent !important;
+  outline-width: 0 !important;
+  outline-style: none !important;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  transition: 0.3s;
+  margin-bottom: 10px;}
+
+.link:hover {
+  color: #4766B0;
+  transition: 0.3s;
+}
+
+p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.btn {
+  text-decoration: none;
+  color: #4766B0;
+  font-weight: bold;
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+}
+
+.btn:after {
+  content: "";
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 1px solid #4766B0;
+  border-right: 1px solid #4766B0;
+  transform: rotate(-45deg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 20px;
+  transition: all .2s ease-in-out;
+
+}
