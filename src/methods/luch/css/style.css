@@ -88,7 +88,7 @@ body {
    -webkit-transition: 0.3s;
    transition: 0.3s;
  }
- .type-therapy__list:hover {
+ .type-therapy__item:hover {
    background-color: #F8F8F8;
    -webkit-transition: 0.3s;
    transition: 0.3s;
@@ -116,11 +116,10 @@ body {
    margin-right: 3%;
    margin-left: 15px;
    padding-right: 0;
-   min-width: 7%;
-   
+   min-width: 7%;   
  }
  
- .type-therapy__list {
+ .type-therapy__item {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;

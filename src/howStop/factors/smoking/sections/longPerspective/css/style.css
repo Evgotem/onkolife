@@ -141,7 +141,6 @@ body {
    height: 1px;
    background-color: #1D79BE;
    bottom: -5px;
-   right: 0;
  }
  .icon{
    width: 30px;
@@ -149,77 +148,23 @@ body {
    margin: 0;
    margin-right: 15px;
  }
- 
- .strong-text {
-   font-size: 18px;
-   color: #1D79BE;
-   font-weight: bold;
- }
- 
- .effect-list {
-   list-style: none;
-   margin: 35px 0;
-   padding: 0;
- }
- 
- .effect-item {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
-   border-top: 1px solid #E9E9E9;
-   padding: 24px 0;
-   -webkit-transition: 0.3s;
-   transition: 0.3s;
- }
- 
- 
- .effect-item:last-child {
-   border-bottom: 1px solid #E9E9E9;
- }
- 
- 
- .effect-number {
-   font-family: Bebas Neue, sans-serif;
-   font-style: normal;
-   font-weight: 700;
-   font-size: 42px;
-   line-height: 54px;
-   letter-spacing: 0;
-   margin-top: 0;
-   margin-left: 10px;
-   text-transform: uppercase;
-   color: #1D79BE;
-   margin-right: 3%;
-   padding-right: 0;
-   min-width: 7%;
- }
- 
- 
- 
+  
  @media (max-width: 411px) {
  
-   .method__text {
+   .list__text {
      border: none;
      margin-left: 0;
      padding: 0;
    }
  
-   .methods-list {
+   .list {
      padding-left: 0;
    }
  
    .container {
      padding: 15px;
    }
- 
-   .effect-number {
-     margin: 15px;
-     font-size: 30px;
-   }
- 
+  
    .section-card__title {
      font-size: 28px;
    }
