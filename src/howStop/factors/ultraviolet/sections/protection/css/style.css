@@ -76,6 +76,7 @@ img {
    -o-object-fit: cover;
    object-fit: cover;
    vertical-align: middle;
+   margin-bottom: 20px;
 }
 
 section {
@@ -100,6 +101,7 @@ section {
    position: relative;
    margin: 25px 0;
    font-weight: bold;
+   padding-left: 15px;
 }
 .fact::before {
    content: "";
@@ -294,6 +296,7 @@ section {
 .aero-text {
    font-weight: bold;
 }
+
 
 @media (max-width: 411px) {
    .risk-list li {
