@@ -8,25 +8,24 @@
 body {
    margin: 0;
    padding: 0;
-   background-color: #F8F8F8;
-   font-family: 'Roboto', sans-serif;
- }
- 
- * {
+   background-color: #f8f8f8;
+   font-family: "Roboto", sans-serif;
+}
+
+* {
    -webkit-box-sizing: border-box;
-           box-sizing: border-box;
- }
- 
- h1,
- h2,
- h3,
- p {
+   box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
    margin: 0;
    padding: 0;
- }
- 
- 
- h3 {
+}
+
+h3 {
    margin-top: 30px;
    margin-bottom: 10px;
    font-family: Roboto, sans-serif;
@@ -35,27 +34,27 @@ body {
    font-size: 20px;
    line-height: 24px;
    letter-spacing: 0;
- }
- 
- p {
+}
+
+p {
    margin-bottom: 10px;
    font-family: Roboto, sans-serif;
    line-height: 26px;
    margin-top: 0;
    color: #262626;
    font-size: 16px;
- }
- 
- .container {
+}
+
+.container {
    background-color: #fff;
    max-width: 990px;
    padding: 30px;
    margin: 35px auto 100px;
- }
- 
- .section-card__title {
+}
+
+.section-card__title {
    margin-bottom: 25px;
-   font-family: 'Bebas Neue',sans-serif;
+   font-family: "Bebas Neue", sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 34px;
@@ -64,47 +63,47 @@ body {
    margin-top: 0;
    text-transform: uppercase;
    font-size: 34px;
- }
- img {
+}
+img {
    max-width: 100%;
    height: auto;
    -o-object-fit: cover;
-      object-fit: cover;
+   object-fit: cover;
    vertical-align: middle;
- }
- 
- .icon{
+}
+
+.icon {
    width: 30px;
    height: auto;
    margin-right: 15px;
- }
- 
- .main-image {
+}
+
+.main-image {
    margin-bottom: 30px;
- }
- .type-therapy-list{
+}
+.type-therapy-list {
    list-style: none;
    padding: 0;
    -webkit-transition: 0.3s;
    transition: 0.3s;
- }
- .type-therapy__item:hover {
-   background-color: #F8F8F8;
+}
+.type-therapy__item:hover {
+   background-color: #f8f8f8;
    -webkit-transition: 0.3s;
    transition: 0.3s;
- }
- .type-therapy__text{
+}
+.type-therapy__text {
    line-height: 26px;
- }
- .type-therapy-list li {
-   border-top: 1px solid #E9E9E9;
+}
+.type-therapy-list li {
+   border-top: 1px solid #e9e9e9;
    padding: 24px 0;
- }
- .type-therapy-list li:last-child {
-   border-bottom: 1px solid #E9E9E9;
- }
- .type-therapy__number{
-   font-family: Bebas Neue,sans-serif;
+}
+.type-therapy-list li:last-child {
+   border-bottom: 1px solid #e9e9e9;
+}
+.type-therapy__number {
+   font-family: Bebas Neue, sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 42px;
@@ -112,74 +111,74 @@ body {
    letter-spacing: 0;
    margin-top: 0;
    text-transform: uppercase;
-   color: #1D79BE;
+   color: #1d79be;
    margin-right: 3%;
    margin-left: 15px;
    padding-right: 0;
-   min-width: 7%;   
- }
- 
- .type-therapy__item {
+   min-width: 7%;
+}
+
+.type-therapy__item {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
    -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
- }
- b {
+   -ms-flex-align: center;
+   align-items: center;
+}
+b {
    display: block;
    margin-bottom: 14px;
-   color: #1D79BE;
+   color: #1d79be;
    font-size: 17px;
- }
- ul {
+}
+ul {
    list-style: none;
    line-height: 26px;
- }
- .mark-list {
+}
+.mark-list {
    list-style-type: none; /* Убираем исходные маркеры */
    counter-reset: num; /* Задаём имя счетчика */
    padding-left: 30px;
-  }
-  .mark-list li {
+}
+.mark-list li {
    margin-bottom: 10px;
-  }
-  .mark-list li::before {
-   content: counter(num) '. '; /* Выводим число */
+}
+.mark-list li::before {
+   content: counter(num) ". "; /* Выводим число */
    counter-increment: num; /* Увеличиваем значение счётчика */
-   color:#1D79BE;
+   color: #1d79be;
    font-weight: bold;
    margin-right: 10px;
-  }
- 
- section {
+}
+
+section {
    margin-bottom: 40px;
- }
- 
- @media (max-width: 411px) {
+}
+
+@media (max-width: 411px) {
    h3 {
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
    }
    .section-card__title {
-     font-size: 28px;
+      font-size: 28px;
    }
    .container {
-     padding: 15px;
+      padding: 15px;
    }
    .type-therapy__number {
-     margin-left: 0;
-     margin-right: 15px;
-     font-size: 30px;
+      margin-left: 0;
+      margin-right: 15px;
+      font-size: 30px;
    }
    .mark-list {
-     padding-left: 15px;
+      padding-left: 15px;
    }
-   .mark-list li{
-     display: -webkit-box;
-     display: -ms-flexbox;
-     display: flex;
+   .mark-list li {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
    }
- }
+}

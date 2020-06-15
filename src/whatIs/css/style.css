@@ -23,6 +23,7 @@ margin: 25px 0 10px;
 p {
 font-size: 16px;
 margin: 0 0 10px;
+text-indent: 30px;
 }
 
 ul {
@@ -82,6 +83,7 @@ transition: 0.3s;
 position: relative;
 padding-left: 20px;
 font-style: italic;
+text-indent: 0;
 }
 .exception::before {
 position: absolute;

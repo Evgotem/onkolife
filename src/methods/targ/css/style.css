@@ -141,6 +141,33 @@ section {
 .exclamation-text {
    margin: 0;
 }
+.fact {
+   display: block;
+   font-size: 18px;
+   position: relative;
+   margin: 15px 0;
+   font-weight: bold;
+   padding-left: 15px;
+}
+
+.fact::before {
+   content: "";
+   display: block;
+   position: relative;
+   width: 100px;
+   height: 2px;
+   background-color: #1d79be;
+   margin-bottom: 7px;
+}
+.fact::after {
+   content: "";
+   display: block;
+   position: relative;
+   width: 100px;
+   height: 2px;
+   background-color: #1d79be;
+   margin-top: 7px;
+}
 
 @media (max-width: 411px) {
    .container {
@@ -155,7 +182,5 @@ section {
    .exclamation-point {
       display: none;
    }
-   .exclamation {
-      border-left: 1px solid #1d79be;
-   }
+
 }
