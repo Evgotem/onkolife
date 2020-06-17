@@ -5,27 +5,34 @@
 * Browsers: last 2 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 2 version
+*/
+
 body {
    margin: 0;
    padding: 0;
-   background-color: #F8F8F8;
-   font-family: 'Roboto', sans-serif;
- }
- 
- * {
+   background-color: #f8f8f8;
+   font-family: "Roboto", sans-serif;
+}
+
+* {
+   -webkit-box-sizing: border-box;
    box-sizing: border-box;
- }
- 
- h1,
- h2,
- h3,
- p {
+}
+
+h1,
+h2,
+h3,
+p {
    margin: 0;
    padding: 0;
- }
- 
- 
- h3 {
+}
+
+h3 {
    margin-top: 40px;
    margin-bottom: 25px;
    font-family: Roboto, sans-serif;
@@ -38,29 +45,29 @@ body {
    display: -ms-flexbox;
    display: flex;
    -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
- }
- 
- p {
+   -ms-flex-align: center;
+   align-items: center;
+}
+
+p {
    margin-bottom: 10px;
    font-family: Roboto, sans-serif;
    line-height: 26px;
    margin-top: 0;
    color: #262626;
    font-size: 16px;
- }
- 
- .container {
+}
+
+.container {
    background-color: #fff;
    max-width: 990px;
    padding: 30px;
    margin: 35px auto 100px;
- }
- 
- .section-card__title {
+}
+
+.section-card__title {
    margin-bottom: 25px;
-   font-family: 'Bebas Neue',sans-serif;
+   font-family: "Bebas Neue", sans-serif;
    font-style: normal;
    font-weight: 700;
    font-size: 34px;
@@ -69,112 +76,111 @@ body {
    margin-top: 0;
    text-transform: uppercase;
    font-size: 34px;
- }
- img {
+}
+img {
    max-width: 100%;
    height: auto;
    -o-object-fit: cover;
-      object-fit: cover;
+   object-fit: cover;
    vertical-align: middle;
- }
- section {
+}
+section {
    margin-bottom: 20px;
- }
- .icon{
+}
+.icon {
    width: 45px;
    height: auto;
    margin-right: 15px;
- }
- .icon-large {
+}
+.icon-large {
    width: 45px;
    height: auto;
- }
- 
- .main-image {
+}
+
+.main-image {
    margin-bottom: 30px;
    width: 100%;
- }
- 
- /* .method__text {
+}
+
+/* .method__text {
    border-left: 2px solid #1D79BE; */
- 
- .education {
+
+.education {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
    -ms-flex-wrap: wrap;
-       flex-wrap: wrap;
+   flex-wrap: wrap;
    -webkit-box-pack: center;
-       -ms-flex-pack: center;
-           justify-content: center;
+   -ms-flex-pack: center;
+   justify-content: center;
    padding: 20px 15px;
-   border-top: 1px solid #E9E9E9;
-   border-bottom: 1px solid #E9E9E9;
+   border-top: 1px solid #e9e9e9;
+   border-bottom: 1px solid #e9e9e9;
    margin-top: 30px;
    margin-bottom: 30px;
    -webkit-transition: 0.3s;
    transition: 0.3s;
- }
- .education:hover {
-   background-color: #F8F8F8;
+}
+.education:hover {
+   background-color: #f8f8f8;
    -webkit-transition: 0.3s;
    transition: 0.3s;
- }
- .education-icon {
+}
+.education-icon {
    width: 150px;
    height: auto;
    display: block;
    margin-right: 25px;
- }
- .education-text {
+}
+.education-text {
    max-width: 700px;
- }
- .disease-list {
+}
+.disease-list {
    list-style: none;
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
    -ms-flex-wrap: wrap;
-       flex-wrap: wrap;
+   flex-wrap: wrap;
    -ms-flex-pack: distribute;
-       justify-content: space-around;
+   justify-content: space-around;
    margin-bottom: 35px;
    margin-top: 30px;
    padding: 0;
- }
- .disease-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 15px; 
-  font-weight: 500;
-  color: #1D79BE;
-  min-width: 200px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-bottom: 25px;
-  text-align: center;
- }
- .disease-icon {
+}
+.disease-item {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   padding: 15px;
+   font-weight: 500;
+   color: #1d79be;
+   min-width: 200px;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-orient: vertical;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: column;
+   flex-direction: column;
+   margin-bottom: 25px;
+   text-align: center;
+}
+.disease-icon {
    width: 70px;
    height: auto;
    margin-bottom: 15px;
- }
- 
- @media (max-width: 411px) {
-   .education{
-     padding: 20px 0;
-     border: none;
+}
+
+@media (max-width: 411px) {
+   .education {
+      padding: 20px 0;
+      border: none;
    }
    .education-text {
-     border-left: 1px solid #1D79BE;
-     padding: 15px;
-     background-color: #f8f8f8;
+      border-left: 1px solid #1d79be;
+      padding: 15px;
+      background-color: #f8f8f8;
    }
-  
- }
+}

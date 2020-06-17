@@ -76,7 +76,6 @@ img {
    -o-object-fit: cover;
    object-fit: cover;
    vertical-align: middle;
-   margin-bottom: 20px;
 }
 
 section {
@@ -90,10 +89,9 @@ section {
    margin-bottom: 10px;
 }
 .icon {
-   width: 45px;
+   width: 50px;
    height: auto;
-   margin-right: 15px;
-   margin-bottom: 0;
+   margin-right: 0px;
 }
 
 .fact {
@@ -102,7 +100,6 @@ section {
    position: relative;
    margin: 25px 0;
    font-weight: bold;
-   padding-left: 15px;
 }
 .fact::before {
    content: "";
@@ -247,83 +244,38 @@ section {
    -ms-flex-align: end;
    align-items: flex-end;
 }
-.aero-title {
-   width: 230px;
-   margin: 0 auto;
-   margin-bottom: 20px;
-   margin-top: 30px;
+.big-icon {
+   width: 130px;
 }
-.aero-list {
-   list-style: none;
-   display: -webkit-box;
-   display: -ms-flexbox;
+.symptom-list {
    display: flex;
-   -ms-flex-pack: distribute;
-   justify-content: space-around;
-   -ms-flex-wrap: wrap;
+   list-style: none;
    flex-wrap: wrap;
+   justify-content: space-around;
    padding: 0;
-   margin: 0;
    margin-bottom: 30px;
 }
-.aero__item {
-   display: -webkit-box;
-   display: -ms-flexbox;
+.symptom__item {
    display: flex;
-   -webkit-box-orient: vertical;
-   -webkit-box-direction: normal;
-   -ms-flex-direction: column;
    flex-direction: column;
-   -ms-flex-preferred-size: 18%;
-   flex-basis: 18%;
-   -webkit-box-align: center;
-   -ms-flex-align: center;
    align-items: center;
-   text-align: center;
-   padding: 10px 0;
-   -webkit-transition: 0.2s;
-   transition: 0.2s;
-   margin-bottom: 10px;
+   justify-content: center;
+   flex-basis: 190px;
+   padding: 15px;
 }
-.aero__item:hover {
-   border-top: 2px solid #1d79c4;
-   border-bottom: 2px solid #1d79c4;
-   box-sizing: border-box;
-
-   color: #fff;
-   -webkit-transition: 0.2s;
-   transition: 0.2s;
-}
-.aero-text {
+.symptom__text {
    font-weight: bold;
+   color: #373543;
+   text-align: center;
 }
-.question-wrap {
-   display: -webkit-box;
-   display: -ms-flexbox;
-   display: flex;
-   margin-top: 25px;
-   margin-bottom: 25px;
-   border-bottom: 2px solid #1d79c4;
-   border-top: 2px solid #1d79c4;
-   padding: 15px 10px;
-}
-.question__img {
-   width: 40px;
-   height: 40px;
-   margin-right: 20px;
-}
-.question__text {
-   line-height: 30px;
+.blue {
+   color: #1d79be;
+   font-weight: 500;
 }
 
 @media (max-width: 411px) {
-   .question-wrap {
-      padding: 15px 5px;
-   }
-   .question__img {
-      width: 30px;
-      height: 30px;
-      margin-right: 10px;
+   ul.fact {
+      padding-left: 15px;
    }
    .risk-list li {
       min-height: 80px;
