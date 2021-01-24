@@ -101,7 +101,3 @@ p {
    -webkit-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
 }
-
-.notFinished {
-   background-color: rgba(17, 19, 23, 0.5);
-}
